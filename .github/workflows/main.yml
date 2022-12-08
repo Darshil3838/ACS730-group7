@@ -3,7 +3,7 @@ on:
   push:
     branches: [ prod, staging, dev ]
   pull_request:
-    branches: [prod, staging]
+    branches: [prod]
 
 jobs:
   tflint:
